@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LumerynDesign – kreative Projekte rund um 3D-Druck, LED, WLED, Elektronik, Technik und praktische DIY-Lösungen.">
+  <meta name="theme-color" content="#080b12">
+  <title>LumerynDesign – 3D • Licht • Kreativität</title>
+  <style>
+    :root {
+      --bg: #080b12;
+      --panel: #111722;
+      --text: #f4f6fb;
+      --muted: #aab4c4;
+      --line: rgba(255,255,255,.09);
+      --blue: #19b8ff;
+      --violet: #7b63ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background:
+        radial-gradient(circle at 16% 9%, rgba(0,180,255,.10), transparent 28%),
+        radial-gradient(circle at 86% 13%, rgba(255,94,20,.09), transparent 28%),
+        var(--bg);
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1120px, 92%); margin: 0 auto; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(8,11,18,.90);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+    }
+    nav {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: .2px;
+      white-space: nowrap;
+    }
+    .brand span,
+    h1 span {
+      background: linear-gradient(90deg, #31c7ff, #7873ff, #e65bd4, #ff9140);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .nav-links { display: flex; gap: 26px; color: #d0d6e0; font-size: .95rem; }
+    .nav-links a:hover { color: #fff; }
+    .hero {
+      min-height: 620px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 62px 0 48px;
+    }
+    .hero-logo {
+      width: clamp(140px, 16vw, 185px);
+      aspect-ratio: 1;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 20px;
+      filter: drop-shadow(0 0 25px rgba(50,120,255,.24));
+    }
+    h1 {
+      font-size: clamp(3rem, 8vw, 5.35rem);
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+    .tagline {
+      font-size: clamp(1.05rem, 2.6vw, 1.45rem);
+      color: #b8c1d0;
+      letter-spacing: 2.2px;
+      margin-bottom: 22px;
+    }
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto 28px;
+      color: #c1c9d6;
+      font-size: 1.05rem;
+    }
+    .buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-width: 138px;
+      padding: 13px 22px;
+      border-radius: 11px;
+      border: 1px solid rgba(255,255,255,.13);
+      background: #141b28;
+      font-weight: 700;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); background: #1b2535; border-color: rgba(255,255,255,.22); }
+    .button.primary { background: linear-gradient(90deg, #078bd5, #7356eb); border: 0; }
+    section { padding: 58px 0; }
+    .section-title { max-width: 760px; margin: 0 auto 30px; text-align: center; }
+    .section-title h2 { font-size: clamp(1.8rem, 4vw, 2.45rem); margin-bottom: 8px; }
+    .section-title p { color: #98a4b7; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card {
+      padding: 28px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(255,255,255,.055), rgba(255,255,255,.022));
+      min-height: 220px;
+    }
+    .card-icon { font-size: 1.9rem; margin-bottom: 16px; }
+    .card h3 { font-size: 1.25rem; margin-bottom: 10px; }
+    .card p { color: #b4bdcb; }
+    .projects { display: grid; grid-template-columns: 1.25fr .75fr; gap: 22px; }
+    .project-main, .project-side {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: linear-gradient(145deg, rgba(17,29,48,.96), rgba(21,15,31,.96));
+    }
+    .project-main { padding: 34px; }
+    .project-side { padding: 30px; display: flex; flex-direction: column; justify-content: center; }
+    .project-kicker { color: #7dd9ff; font-size: .78rem; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; margin-bottom: 9px; }
+    .project-main h3, .project-side h3 { font-size: 1.55rem; margin-bottom: 12px; }
+    .project-main p, .project-side p { color: #b6c0cf; margin-bottom: 20px; }
+    .mini-list { display: grid; gap: 10px; color: #c9d0da; margin: 2px 0 22px; }
+    .mini-list span::before { content: "• "; color: #6bcfff; }
+    .about { max-width: 820px; margin: 0 auto; text-align: center; color: #b7c0cd; font-size: 1.04rem; }
+    .contact-box {
+      max-width: 760px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 42px 26px;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(30,136,229,.13), rgba(180,70,255,.10));
+    }
+    .contact-box h2 { margin-bottom: 10px; font-size: 2rem; }
+    .contact-box p { color: #bbc4d1; margin-bottom: 22px; }
+    footer { margin-top: 22px; border-top: 1px solid var(--line); padding: 28px 0; color: #8994a5; font-size: .9rem; }
+    .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .footer-links { display: flex; gap: 18px; }
+    .footer-links a:hover { color: #fff; }
+    @media (max-width: 850px) {
+      .cards, .projects { grid-template-columns: 1fr; }
+      .nav-links { gap: 16px; }
+      .hero { min-height: auto; padding: 62px 0 42px; }
+      h1 { letter-spacing: -1px; }
+    }
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .brand { font-size: 1.2rem; }
+      section { padding: 48px 0; }
+      .project-main, .project-side, .card { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="brand" href="#top">Lumeryn<span>Design</span></a>
+      <div class="nav-links">
+        <a href="#themen">Themen</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#ueber">Über LumerynDesign</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="container">
+      <img class="hero-logo" src="lumery-logo.png" alt="LumerynDesign Logo">
+      <h1>Lumeryn<span>Design</span></h1>
+      <div class="tagline">3D • LICHT • KREATIVITÄT</div>
+      <p>Kreative Projekte rund um 3D-Druck, LED- und WLED-Technik, Elektronik und praktische DIY-Lösungen – entwickelt, gebaut und im echten Einsatz getestet.</p>
+      <div class="buttons">
+        <a class="button primary" href="https://www.youtube.com/@LumerynDesign" target="_blank" rel="noopener">▶ YouTube</a>
+        <a class="button" href="https://makerworld.com/de/@LumerynDesign" target="_blank" rel="noopener">⬡ MakerWorld</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="themen">
+    <div class="container">
+      <div class="section-title">
+        <h2>Was du bei LumerynDesign findest</h2>
+        <p>Von der ersten Idee über Konstruktion und Technik bis zum fertigen Projekt.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">⬡</div>
+          <h3>3D-Druck</h3>
+          <p>Eigene Modelle, funktionale Bauteile und kreative Designs für praktische Anwendungen und besondere Projekte.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">💡</div>
+          <h3>LED & WLED</h3>
+          <p>Individuelle Lichtprojekte mit LEDs, WLED, Mikrocontrollern und Elektronik – von einfach bis ausgefallen.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">⚙</div>
+          <h3>Technik & DIY</h3>
+          <p>Praxisnahe Technik, Produkttests, Elektronik und Lösungen, die sich im echten Einsatz bewähren müssen.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projekte">
+    <div class="container">
+      <div class="section-title">
+        <h2>Aktuelle Projekte</h2>
+        <p>Eigene Entwicklungen und Videos aus der Praxis.</p>
+      </div>
+      <div class="projects">
+        <article class="project-main">
+          <div class="project-kicker">3D-Druck • HueForge • WLED</div>
+          <h3>HexaGlow – modulare HueForge & WLED Lightbox</h3>
+          <p>Eine modulare Lightbox mit austauschbaren HueForge-Motivplatten, RGB-Beleuchtung, WLED-Steuerung und optionaler Touch-Bedienung.</p>
+          <div class="buttons" style="justify-content:flex-start">
+            <a class="button primary" href="https://makerworld.com/de/models/3250337-hexaglow-modulare-hueforge-wled-lightbox#profileId-3683637" target="_blank" rel="noopener">Modell auf MakerWorld</a>
+            <a class="button" href="https://www.youtube.com/@LumerynDesign" target="_blank" rel="noopener">Videos ansehen</a>
+          </div>
+        </article>
+        <aside class="project-side">
+          <div class="project-kicker">Weitere Inhalte</div>
+          <h3>Modelle & Produktvideos</h3>
+          <p>Auf MakerWorld und YouTube findest du weitere Modelle, Aufbauvideos, Techniktests und neue Projekte.</p>
+          <div class="mini-list">
+            <span>3D-Modelle & Druckdateien</span>
+            <span>Aufbau & Verkabelung</span>
+            <span>WLED-Einrichtung</span>
+            <span>Technik- und Produkttests</span>
+          </div>
+          <a class="button" href="https://makerworld.com/de/@LumerynDesign" target="_blank" rel="noopener">Alle Modelle ansehen</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="ueber">
+    <div class="container">
+      <div class="section-title"><h2>Über LumerynDesign</h2></div>
+      <div class="about">LumerynDesign verbindet 3D-Druck, Licht, Elektronik und Technik. Im Mittelpunkt stehen eigene Projekte und praktische Lösungen, die nicht nur gut aussehen, sondern auch im Alltag funktionieren. Neue Modelle, Projekte und Videos kommen regelmäßig dazu.</div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <div class="container">
+      <div class="contact-box">
+        <h2>Kontakt</h2>
+        <p>Fragen zu LumerynDesign, Projekten oder geschäftlichen Anfragen?</p>
+        <a class="button primary" href="mailto:kontakt@lumeryndesign.de">✉ kontakt@lumeryndesign.de</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container footer-content">
+    <div>© 2026 LumerynDesign</div>
+    <div class="footer-links">
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
