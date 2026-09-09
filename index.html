@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="LumerynDesign – 3D-Druck, Licht, WLED, Technik und kreative DIY-Projekte.">
+<title>LumerynDesign – 3D • Licht • Kreativität</title>
+<style>
+:root{--bg:#05070d;--card:#0c111b;--line:#202a3a;--txt:#f7f8fc;--muted:#aeb9ca;--cyan:#19c8ff;--vio:#7b5cff;--red:#ff2448;--green:#37d985}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(900px 500px at 15% 8%,#07233b 0,transparent 65%),radial-gradient(800px 450px at 85% 10%,#351214 0,transparent 65%),#05070d;color:var(--txt);font-family:Inter,Segoe UI,Arial,sans-serif}a{color:inherit}.wrap{width:min(1180px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#05070de8;backdrop-filter:blur(15px);border-bottom:1px solid #17202d}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:850;font-size:21px;text-decoration:none}.brand b{background:linear-gradient(90deg,#39caff,#8a61ff,#ff5ca8,#ff9b38);-webkit-background-clip:text;color:transparent}.links{display:flex;gap:25px}.links a{text-decoration:none;color:#ccd4df;font-size:14px}.links a:hover{color:#fff}
+.hero{padding:74px 0 92px;text-align:center;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;left:10%;right:10%;bottom:20px;height:2px;background:linear-gradient(90deg,transparent,#0bcaff,#8a59ff,#ff7043,transparent);filter:blur(3px);opacity:.7}.hero-logo{display:block;width:min(820px,95%);max-height:410px;object-fit:contain;margin:0 auto;filter:drop-shadow(0 18px 50px #4b5dff28)}.hero p{max-width:790px;margin:20px auto;color:#c4cede;font-size:18px;line-height:1.7}.buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 20px;border-radius:11px;border:1px solid #334157;background:#101725;text-decoration:none;font-weight:750;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#65758d}.primary{border:0;background:linear-gradient(90deg,#0c9fe7,#7657f4);box-shadow:0 8px 30px #315cff28}
+section{padding:72px 0}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature{padding:25px;border-radius:18px;background:linear-gradient(145deg,#101722,#090e16);border:1px solid #202b3a;min-height:170px}.feature:nth-child(1){box-shadow:inset 0 1px #19c8ff55}.feature:nth-child(2){box-shadow:inset 0 1px #8d62ff55}.feature:nth-child(3){box-shadow:inset 0 1px #ff8a3d55}.feature:nth-child(4){box-shadow:inset 0 1px #35dc8555}.ico{font-size:30px;margin-bottom:16px}.feature h3{margin:0 0 8px;font-size:20px}.feature p{margin:0;color:var(--muted);line-height:1.55}
+.heading{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:30px}.heading h2{margin:0;font-size:clamp(34px,5vw,50px);letter-spacing:-1.5px}.gradient{background:linear-gradient(90deg,#28c8ff,#835fff,#f55cad,#ff913f);-webkit-background-clip:text;color:transparent}.heading p{margin:0;color:var(--muted)}
+.projects{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}.project{border-radius:22px;overflow:hidden;background:#0a1019;border:1px solid #202b3a}.visual{height:390px;position:relative;overflow:hidden;background:#080b11}.visual img{width:100%;height:100%;object-fit:cover;display:block;transition:.4s}.project:hover .visual img{transform:scale(1.025)}.shade{position:absolute;inset:0;background:linear-gradient(transparent 50%,#080c13e8)}.body{padding:25px}.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5ed9ff}.body h3{font-size:27px;margin:8px 0}.body p{color:var(--muted);line-height:1.6}.chips{display:flex;gap:7px;flex-wrap:wrap;margin:17px 0}.chips span{padding:6px 10px;border:1px solid #29374a;border-radius:999px;font-size:12px;color:#d7dfeb}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.gallery img{width:100%;aspect-ratio:1.1/1;object-fit:cover;border-radius:13px;border:1px solid #273246}
+.fountain{height:390px;display:grid;place-items:center;text-align:center;padding:35px;background:radial-gradient(circle at 50% 40%,#0c527d,#091a29 55%,#080c13)}.fountain .sun{font-size:55px}.fountain h4{font-size:27px;margin:10px}.fountain p{color:#b8d6e7;max-width:350px}
+.platforms{display:grid;grid-template-columns:1fr 1fr;gap:22px}.platform{min-height:350px;border-radius:24px;overflow:hidden;position:relative;border:1px solid #263143;background:#0b1018}.platform-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.32;filter:saturate(1.1)}.platform:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080c13 10%,#080c13dd 45%,transparent)}.platform-content{position:relative;z-index:2;padding:38px;max-width:62%}.platform-logo{font-size:42px;font-weight:900;margin-bottom:12px}.youtube .platform-logo{color:#ff334f}.maker .platform-logo{color:#48df8c}.platform h3{font-size:37px;margin:0 0 12px}.platform p{color:#c0cad8;line-height:1.6}.youtube{box-shadow:inset 0 0 80px #ff163010}.maker{box-shadow:inset 0 0 80px #2bdb7c0d}.youtube .btn{background:#e6213c;border-color:#ff4058}.maker .btn{background:#159653;border-color:#38d77d}
+.contact{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:38px;border:1px solid #2b3750;border-radius:22px;background:linear-gradient(110deg,#0a2236,#15102c 60%,#25111b)}.contact h2{font-size:35px;margin:0 0 8px}.contact p{color:#bdc8d8;margin:0}.about{max-width:900px;color:#c5cedc;line-height:1.8;font-size:18px}
+footer{padding:28px 0;border-top:1px solid #17202c;color:#8999af}.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px}.foot a{text-decoration:none;margin-left:18px}
+@media(max-width:900px){.links{display:none}.features{grid-template-columns:1fr 1fr}.projects,.platforms{grid-template-columns:1fr}.platform-content{max-width:75%}.contact{display:block}.visual,.fountain{height:330px}}
+@media(max-width:560px){.features{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.platform-content{max-width:100%;padding:28px}.platform-bg{opacity:.18}.heading{display:block}.heading p{margin-top:8px}.visual,.fountain{height:270px}}
+</style>
+</head><body>
+<header><div class="wrap nav"><a class="brand" href="#">Lumeryn<b>Design</b></a><div class="links"><a href="#">Startseite</a><a href="#projekte">Projekte</a><a href="#youtube">YouTube</a><a href="#makerworld">MakerWorld</a><a href="#ueber">Über mich</a><a href="#kontakt">Kontakt</a></div></div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<!-- HERO: NUR LumerynDesign, bewusst KEIN HexaGlow -->
+<img class="hero-logo" src="lumeryndesign-logo.png" alt="LumerynDesign – 3D Licht Kreativität">
+<p>Kreative 3D-Druck-Projekte, stimmungsvolle Lichtideen und praktische Techniklösungen für den Alltag.<br>Von der Idee bis zum fertigen Modell.</p>
+<div class="buttons"><a class="btn primary" href="#projekte">✦ Meine Projekte entdecken</a><a class="btn" href="https://www.youtube.com/@LumerynDesign" target="_blank" rel="noopener">▶ Zum YouTube-Kanal</a></div>
+</div></section>
+
+<section><div class="wrap features">
+<div class="feature"><div class="ico">⬡</div><h3>3D-Druck</h3><p>Modelle, nützliches & dekoratives Design.</p></div>
+<div class="feature"><div class="ico">💡</div><h3>Licht & LED</h3><p>WLED, RGB und individuelle Lichtobjekte.</p></div>
+<div class="feature"><div class="ico">⚙</div><h3>Technik & DIY</h3><p>Elektronik, smarte Lösungen und praktische Helfer.</p></div>
+<div class="feature"><div class="ico">✦</div><h3>Kreativität</h3><p>Ideen, Inspiration und neue Projekte.</p></div>
+</div></section>
+
+<section id="projekte"><div class="wrap">
+<div class="heading"><h2>Aktuelle <span class="gradient">Projekte</span></h2><p>Eigene Projekte von LumerynDesign</p></div>
+<div class="projects">
+<article class="project"><div class="visual"><img src="hexaglow-lightbox.png" alt="HexaGlow RGB Lightbox von LumerynDesign"><div class="shade"></div></div><div class="body"><div class="eyebrow">3D-Druck • HueForge • WLED</div><h3>HexaGlow – modulare HueForge & WLED Lightbox</h3><p>Eine RGB-Lightbox mit austauschbaren Motivplatten. WLED, verschiedene Lichteffekte und optionale Touch- und Alexa-Steuerung machen aus einem Gehäuse viele unterschiedliche Lichtmotive.</p><div class="chips"><span>Modulares Design</span><span>Austauschbare Motive</span><span>WLED & Touch</span><span>Alexa optional</span></div><a class="btn primary" href="https://makerworld.com/de/models/3250337-hexaglow-modulare-hueforge-wled-lightbox#profileId-3683637" target="_blank" rel="noopener">Zum Projekt →</a>
+<div class="gallery"><img src="hexaglow-halloween.jpg" alt="HexaGlow Halloween"><img src="hexaglow-love.jpg" alt="HexaGlow Love"><img src="hexaglow-fuchs.jpg" alt="HexaGlow Fuchs"><img src="hexaglow-einhorn.jpg" alt="HexaGlow Einhorn"></div></div></article>
+
+<article class="project"><div class="fountain"><div><div class="sun">☀</div><h4>Solarer 2-stufiger<br>3D-gedruckter Brunnen</h4><p>Für diese Karte kommt ausschließlich dein echtes Brunnenfoto hinein – kein KI-Bild.</p></div></div><div class="body"><div class="eyebrow">Solar • 3D-Druck • Eigenes Design</div><h3>Solarer 2-stufiger 3D-gedruckter Brunnen</h3><p>Ein selbst entwickeltes, zweistufiges 3D-Druck-Projekt mit Solarbetrieb.</p><div class="chips"><span>Solarbetrieb</span><span>3D-Druck</span><span>2-stufig</span><span>Eigenes Design</span></div><a class="btn" href="https://makerworld.com/de/@LumerynDesign" target="_blank" rel="noopener">Auf MakerWorld →</a></div></article>
+</div></div></section>
+
+<section><div class="wrap platforms">
+<article class="platform youtube" id="youtube"><img class="platform-bg" src="hexaglow-halloween-dark.jpg" alt=""><div class="platform-content"><div class="platform-logo">▶ YouTube</div><h3>Videos & Anleitungen</h3><p>Produktvorstellungen, Anleitungen und eigene Projekte aus der Welt von 3D-Druck, WLED und Technik.</p><a class="btn" href="https://www.youtube.com/@LumerynDesign" target="_blank" rel="noopener">▶ Zum YouTube-Kanal</a></div></article>
+<article class="platform maker" id="makerworld"><img class="platform-bg" src="hexaglow-motive.png" alt=""><div class="platform-content"><div class="platform-logo">⬡ MakerWorld</div><h3>Meine 3D-Modelle</h3><p>Meine Modelle und Projekte ansehen, herunterladen und selbst drucken.</p><a class="btn" href="https://makerworld.com/de/@LumerynDesign" target="_blank" rel="noopener">↗ Zum MakerWorld-Profil</a></div></article>
+</div></section>
+
+<section id="ueber"><div class="wrap"><div class="heading"><h2>Über <span class="gradient">LumerynDesign</span></h2></div><p class="about">LumerynDesign verbindet 3D-Druck, Licht, Elektronik und Technik. Im Mittelpunkt stehen eigene Projekte und praktische Lösungen – von der ersten Idee über Konstruktion und Aufbau bis zum fertigen Modell.</p></div></section>
+
+<section id="kontakt"><div class="wrap contact"><div><h2>✉ Kontakt</h2><p>Fragen zu Projekten, Anregungen oder geschäftliche Anfragen? Ich freue mich auf deine Nachricht.</p></div><a class="btn primary" href="mailto:kontakt@lumeryndesign.de">E-Mail schreiben</a></div></section>
+</main>
+
+<footer><div class="wrap foot"><div>© 2026 LumerynDesign &nbsp;|&nbsp; 3D • Licht • Kreativität</div><div><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div></footer>
+</body></html>
