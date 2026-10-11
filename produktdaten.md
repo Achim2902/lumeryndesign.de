@@ -31,7 +31,9 @@ Direktbestellung per E-Mail an kontakt@lumeryndesign.de; PayPal-Zahlungslink nac
 - Kartons für 1–2 Geister bereits vorhanden (Angabe des Inhabers).
 - In früheren TikTok-Daten genannt: Karton 16 × 16 × 11 cm, Versandgewicht 160 g; vor Wiederverwendung auf Zuordnung/Passform prüfen.
 - Bisher kalkulierte DHL-Online-Versandkosten: 6,19 € (Tarif/aktuelle Preise vor Kauf prüfen).
-- Karton für 3–4 Geister noch auszuwählen; Innenmaße, Außenmaße und Polsterung beachten.
+- Karton für 3–4 Geister **bestellt** (11.10.2026): 25 Stück, Außenmaße 350 × 240 × 150 mm, Innenmaße 345 × 235 × 140 mm, einwellig, 25,40 € inkl. MwSt. Eignung erst nach Verpackungstest bestätigt.
+- Luftpolsterfolie **bestellt** (11.10.2026): 30 cm × 100 m, zweilagig, 50 my, 18,69 € inkl. MwSt.
+- Verpackungsmaterial gesamt 44,09 € inkl. MwSt.; Rechnungen aufbewahren.
 - Für 4 Freche Geister: reines Filamentgewicht 465,44 g; Verpackung/Polsterung zusätzlich.
 - Frecher Geist: 122,53 × 75,88 × 125 mm. Bei 4 Exemplaren kann z. B. eine 2×2-Anordnung im Grundriss ca. 245,06 × 151,76 mm vor Polsterung benötigen; die Orientierung und tatsächliche Stapelbarkeit müssen am realen Produkt geprüft werden.
 - Vor Kartonkauf **Innenmaße** prüfen; beim DHL-Tarif gelten **Außenmaße**.
