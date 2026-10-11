@@ -10,7 +10,7 @@ Stand: 11.10.2026. Werte aus Bambu-Studio-Screenshots und Angaben des Inhabers. 
 | Y / Tiefe | 80,03 mm | 75,88 mm |
 | Z / Höhe | 115,00 mm | 125,00 mm |
 | Filamentverbrauch | 88,73 g | 116,36 g |
-| Druckzeit | noch offen | 7 h 39 min |
+| Druckzeit | 5 h 57 min | 7 h 39 min |
 | LED-Teelicht | geeignet, nicht enthalten | geeignet, nicht enthalten |
 
 Nur LED-Teelichter, keine offene Flamme. Dekoration für den Innenbereich.
