@@ -1,6 +1,6 @@
 # LumerynDesign – Produkt- und Versanddaten
 
-Stand: 11.10.2026. Werte aus Bambu-Studio-Screenshots und Angaben des Inhabers. Unbekannte Werte ausdrücklich offen lassen.
+Stand: 12.10.2026. Werte aus Bambu-Studio-Screenshots und Angaben des Inhabers. Unbekannte Werte ausdrücklich offen lassen.
 
 ## Halloween-Geister (fertig gedruckt)
 
@@ -19,12 +19,17 @@ Nur LED-Teelichter, keine offene Flamme. Dekoration für den Innenbereich.
 
 Direktbestellung per E-Mail an kontakt@lumeryndesign.de; PayPal-Zahlungslink nach Bestellbestätigung. Frei kombinierbar, maximal 4 Geister pro Bestellung.
 
-| Gesamtmenge | Preis inkl. Versand innerhalb Deutschlands |
+| Position | Preis |
 |---|---:|
-| 1 | 21,09 € |
-| 2 | 32,99 € |
-| 3 | 44,99 € |
-| 4 | 56,99 € (vorläufig, Versandverpackung prüfen) |
+| Sexy Geist | 7,90 € pro Stück |
+| Frecher Geist | 8,90 € pro Stück |
+| Versand innerhalb Deutschlands | einmalig 6,19 € pro Bestellung (1–4 Geister) |
+
+Gesamtpreis = 7,90 € × Anzahl Sexy + 8,90 € × Anzahl Frecher + 6,19 € Versand. Die Website berechnet den Gesamtpreis abhängig von der Mischung der Modelle und übernimmt ihn in die E-Mail-Anfrage. Für 3–4 Geister Verpackung und tatsächliche Versandkosten vor Bestellbestätigung prüfen.
+
+## Amazon / TikTok (Stand 12.10.2026)
+- Amazon: Sexy Geist 9,90 € Artikelpreis (zuletzt in Seller Central sichtbar), Frecher Geist 8,90 € Artikelpreis; Amazon-Standardversand wurde in Seller Central mit 4,00 € angezeigt und ist nicht frei wie auf der Website einstellbar. Frecher Geist noch in Prüfung.
+- TikTok: Versandkosten auf 6,19 € geändert; aktuelle Artikelpreise hier nicht abschließend dokumentiert.
 
 ## Verpackung / Versand
 
