@@ -1,6 +1,6 @@
 # LumerynDesign – Produkt- und Versanddaten
 
-Stand: 12.10.2026. Werte aus Bambu-Studio-Screenshots und Angaben des Inhabers. Unbekannte Werte ausdrücklich offen lassen.
+Stand: 13.10.2026. Werte aus Bambu-Studio-Screenshots und Angaben des Inhabers. Unbekannte Werte ausdrücklich offen lassen.
 
 ## Halloween-Geister (fertig gedruckt)
 
@@ -13,6 +13,8 @@ Stand: 12.10.2026. Werte aus Bambu-Studio-Screenshots und Angaben des Inhabers. 
 | Druckzeit | 5 h 57 min | 7 h 39 min |
 | LED-Teelicht | geeignet, nicht enthalten | geeignet, nicht enthalten |
 
+Frecher Geist: tatsächliches gewogenes Artikelgewicht laut Inhaber **104 g**; 116,36 g oben ist der Filamentverbrauch laut Slicer.
+
 Nur LED-Teelichter, keine offene Flamme. Dekoration für den Innenbereich.
 
 ## Verkauf über Website
@@ -21,15 +23,18 @@ Direktbestellung per E-Mail an kontakt@lumeryndesign.de; PayPal-Zahlungslink nac
 
 | Position | Preis |
 |---|---:|
-| Sexy Geist | 7,90 € pro Stück |
-| Frecher Geist | 8,90 € pro Stück |
+| Sexy Geist | 9,90 € pro Stück |
+| Frecher Geist | 10,90 € pro Stück |
 | Versand innerhalb Deutschlands | einmalig 6,19 € pro Bestellung (1–4 Geister) |
 
-Gesamtpreis = 7,90 € × Anzahl Sexy + 8,90 € × Anzahl Frecher + 6,19 € Versand. Die Website berechnet den Gesamtpreis abhängig von der Mischung der Modelle und übernimmt ihn in die E-Mail-Anfrage. Für 3–4 Geister Verpackung und tatsächliche Versandkosten vor Bestellbestätigung prüfen.
+Gesamtpreis = 9,90 € × Anzahl Sexy + 10,90 € × Anzahl Frecher + 6,19 € Versand. Die Website berechnet den Gesamtpreis abhängig von der Mischung der Modelle und übernimmt ihn in die E-Mail-Anfrage. Für 3–4 Geister Verpackung und tatsächliche Versandkosten vor Bestellbestätigung prüfen.
 
-## Amazon / TikTok (Stand 12.10.2026)
-- Amazon: Sexy Geist 9,90 € Artikelpreis (zuletzt in Seller Central sichtbar), Frecher Geist 8,90 € Artikelpreis; Amazon-Standardversand wurde in Seller Central mit 4,00 € angezeigt und ist nicht frei wie auf der Website einstellbar. Frecher Geist noch in Prüfung.
-- TikTok: Versandkosten auf 6,19 € geändert; aktuelle Artikelpreise hier nicht abschließend dokumentiert.
+## Amazon / TikTok (Stand 13.10.2026)
+- **Empfohlene, noch manuell einzutragende Preise:** Amazon: Sexy Geist 13,90 €, Frecher Geist 14,90 €; TikTok: Sexy Geist 11,90 €, Frecher Geist 12,90 €.
+- **Zuletzt beobachtete Amazon-Preise vor Umstellung:** Sexy Geist 9,90 €, Frecher Geist 8,90 €, beide Angebote aktiv. Amazon-Standardversand in Seller Central mit 4,00 € angezeigt; nicht frei wie auf der Website einstellbar.
+- **Zuletzt eingestellte TikTok-Preise vor Umstellung:** Sexy Geist 7,90 €, Frecher Geist 8,90 €; Versandkosten 6,19 €.
+- Website am 13.10.2026 auf neue Artikelpreise aktualisiert. Preise für Amazon und TikTok müssen noch manuell umgestellt werden.
+- Kalkulation mit 15 Minuten Eigenarbeit je Geist (Beispielansatz 15 €/Stunde = 3,75 €), geschätzten Strom-/Verpackungskosten und noch nicht endgültig verifizierten Plattformgebühren.
 
 ## Verpackung / Versand
 
